@@ -2,10 +2,7 @@ module.exports = {
   root: true,
   env: {
     node: true,
-    env: {
-      node: true,
-      jest: true, // jest api들을 사용할 때 에러 표시가 나지 않게 해줍니다.
-    },
+    jest: true, // jest api들을 사용할 때 에러 표시가 나지 않게 해줍니다.
   },
   extends: [
     "plugin:vue/vue3-essential",
